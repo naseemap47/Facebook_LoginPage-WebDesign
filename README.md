@@ -1,15 +1,6 @@
 # Facebook_Login_Page-WebDesigning
 
 <p align="center">
- <a href="https://github.com/naseemap47/Facebook_LoginPage-WebDesign">
-    <img alt="HTML5" src="https://img.shields.io/badge/Language-HTML-yellowgreen?color=brightgreen&logo=html5">
-  </a>
-  <a href="https://github.com/naseemap47/Facebook_LoginPage-WebDesign">
-    <img alt="CSS3" src="https://img.shields.io/badge/Language-CSS-yellowgreen?color=brightgreen&logo=css3">
-  </a>
-  <a href="https://github.com/naseemap47/Facebook_LoginPage-WebDesign">
-    <img alt="VS Code" src="https://img.shields.io/badge/IDE-VS Code-yellowgreen?color=brightgreen&logo=visualstudiocode">
-  </a>
   <a href="https://github.com/naseemap47/Facebook_LoginPage-WebDesign/issues">
     <img alt="Top-down learning path: Facebook_LoginPage-WebDesign" src="https://img.shields.io/github/issues/naseemap47/Facebook_LoginPage-WebDesign?color=9cf&style=flat&logo=appveyor">
   </a>
@@ -28,10 +19,24 @@
  <a href="https://github.com/naseemap47">
     <img alt="Github" src="https://img.shields.io/badge/Github-black?logo=github">
  </a>
+ <br>
+ <a href="https://github.com/naseemap47/Facebook_LoginPage-WebDesign">
+    <img alt="HTML5" src="https://img.shields.io/badge/Language-HTML-yellowgreen?color=brightgreen&logo=html5">
+  </a>
+  <a href="https://github.com/naseemap47/Facebook_LoginPage-WebDesign">
+    <img alt="CSS3" src="https://img.shields.io/badge/Language-CSS-yellowgreen?color=brightgreen&logo=css3">
+  </a>
+  <a href="https://github.com/naseemap47/Facebook_LoginPage-WebDesign">
+    <img alt="VS Code" src="https://img.shields.io/badge/IDE-VS Code-yellowgreen?color=brightgreen&logo=visualstudiocode">
+  </a>
 </p>
 
 ## Description
 Creating a Facebook Login Page using HTML and CSS
+
+## Screenshot of Created Facebook Login Page
+<img src="https://github.com/naseemap47/Facebook_LoginPage-WebDesign/blob/div/Facebook_LoginPage.png">
+
 ## Requirements
 #### Programming Language
 * HTML5
