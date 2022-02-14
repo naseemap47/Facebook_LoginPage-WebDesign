@@ -54,7 +54,7 @@ body{
     padding-top: 55px;
 }
 .right-body{
-    width: 50%;
+    width: 40%;
     float: left;
 }
 .main-body{
@@ -68,4 +68,85 @@ body{
 .left-para{
     font-weight: bold;
     font-size: 21px;
+}
+.signup-form-first-row{
+    width: 220px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: 1px solid rgb(204, 202, 202);
+}
+.signup-form{
+    width: 450px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: 1px solid rgb(204, 202, 202);
+    margin-top: 10px;
+}
+.form-label{
+    color: gray;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 4px;
+}
+.form-option-day{
+    border: 1px solid rgb(206, 205, 205);
+    height: 30px;
+    width: 60px;
+    border-radius: 4px;
+    background: #fff;
+    text-align: center;
+}
+.form-option-month{
+    border: 1px solid rgb(206, 205, 205);
+    height: 30px;
+    width: 80px;
+    border-radius: 4px;
+    background: #fff;
+    text-align: center;
+}
+.form-option-year{
+    border: 1px solid rgb(206, 205, 205);
+    height: 30px;
+    width: 60px;
+    border-radius: 4px;
+    background: #fff;
+    text-align: center;
+}
+.radio-button{
+    accent-color: #2a4a81;
+    
+}
+.terms{
+    text-decoration: none;
+    color: #264986;
+}
+.terms-para{
+    font-size: 12px;
+    color: rgb(102, 98, 98);
+}
+.signup-button{
+    width: 160px;
+    height: 40px;
+    color: #fff;
+    background: rgb(41, 136, 41);
+    border-radius: 4px;
+    border: 1px solid grey;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.signup-button:hover{
+    background: green;
+}
+.page-text{
+    text-decoration: none;
+    color: #264986;
+}
+.para-text{
+    color: gray;
+    font-size: 16px;
+    font-weight: bold;
 }
