@@ -65,6 +65,10 @@ body{
 .image{
     width: 580px;
 }
+.form-heading{
+    font-size: 18px;
+    margin-top: -15px;
+}
 .left-para{
     font-weight: bold;
     font-size: 21px;
