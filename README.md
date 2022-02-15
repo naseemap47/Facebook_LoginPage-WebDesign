@@ -10,7 +10,7 @@
   <a href="https://github.com/naseemap47/Facebook_LoginPage-WebDesign/network">
     <img alt="GitHub forks" src="https://img.shields.io/github/forks/naseemap47/Facebook_LoginPage-WebDesign?style=flat&logo=Git">
   </a>
-  <a href="https://github.com/naseemap47/Facebook_LoginPage-WebDesign/blob/master/LICENSE">
+  <a href="https://github.com/naseemap47/Facebook_LoginPage-WebDesign/blob/div/LICENSE">
     <img alt="GitHub Licence" src="https://img.shields.io/github/license/naseemap47/Facebook_LoginPage-WebDesign?color=red&style=flat&logo=appveyor">
   </a>
   <a href="https://www.linkedin.com/in/naseem-alassampattil/">
@@ -43,3 +43,6 @@ Creating a Facebook Login Page using HTML and CSS
 * CSS3
 #### IDE
 * Visual Studio Code
+
+## License
+[![CC0](http://seawisphunter.com/minibuffer/api/MIT-License-transparent.png)](https://github.com/naseemap47/Facebook_LoginPage-WebDesign/blob/div/LICENSE)
