@@ -27,6 +27,20 @@ $(document).ready(function(){
             gender:{
                 required:true
             }
+        },
+        messages:{
+            fname:{
+                required:"Enter first name",
+            },
+            sname:{
+                required:"Enter last name"
+            },
+            emailAddress:{
+                required:"Enter your email address"
+            },
+            password:{
+                required:"Enter your password"
+            }
         }
     })
 })
