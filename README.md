@@ -27,12 +27,18 @@
     <img alt="CSS3" src="https://img.shields.io/badge/Language-CSS-yellowgreen?color=brightgreen&logo=css3">
   </a>
   <a href="https://github.com/naseemap47/Facebook_LoginPage-WebDesign">
+    <img alt="JavaScript" src="https://img.shields.io/badge/Language-JavaScript-yellowgreen?color=brightgreen&logo=javascript">
+  </a>
+  <a href="https://github.com/naseemap47/Facebook_LoginPage-WebDesign">
+    <img alt="jQuery" src="https://img.shields.io/badge/Tool-jQuery-yellowgreen?color=brightgreen&logo=jquery">
+  </a>
+  <a href="https://github.com/naseemap47/Facebook_LoginPage-WebDesign">
     <img alt="VS Code" src="https://img.shields.io/badge/IDE-VS Code-yellowgreen?color=brightgreen&logo=visualstudiocode">
   </a>
 </p>
 
 ## Description
-Creating a Facebook Login Page using HTML and CSS
+Creating a Facebook Login Page using HTML,CSS and JavaScript(jQuery)
 
 ## Screenshot of Created Facebook Login Page
 <img src="https://github.com/naseemap47/Facebook_LoginPage-WebDesign/blob/div/Facebook_LoginPage.png">
@@ -41,6 +47,7 @@ Creating a Facebook Login Page using HTML and CSS
 #### Programming Language
 * HTML5
 * CSS3
+* JavaScript (jQuery)
 #### IDE
 * Visual Studio Code
 
