@@ -46,37 +46,37 @@
                 <form action="" id="signup-form">
                     <input name="fname" class="signup-form-first-row" type="text" placeholder=" First name">
                     <input name="sname" class="signup-form-first-row" type="text" placeholder=" Surname">
-                    <input class="signup-form" type="text" placeholder=" Mobile number or email address">
-                    <input class="signup-form" type="text" placeholder=" New password">
+                    <input name="emailAddress" class="signup-form" type="text" placeholder=" Mobile number or email address">
+                    <input name="password" class="signup-form" type="text" placeholder=" New password">
                     <p class="form-label">Birthday</p>
-                    <select class="form-option-day" name="" id="">
+                    <select class="form-option-day" name="day" id="">
                         <option value="">Day</option>
                         <script>
                             for (let i = 1; i < 32; i++) {
-                                document.write("<option>"+i+"</option>")
+                                document.write("<option value='"+i+"'"+'>'+i+"</option>")
                             }
                         </script>
                     </select>
-                    <select class="form-option-month" name="" id="">
+                    <select class="form-option-month" name="month" id="">
                         <option value="">Month</option>
-                        <option value="">January</option>
-                        <option value="">February</option>
-                        <option value="">March</option>
-                        <option value="">April</option>
-                        <option value="">May</option>
-                        <option value="">June</option>
-                        <option value="">July</option>
-                        <option value="">August</option>
-                        <option value="">September</option>
-                        <option value="">October</option>
-                        <option value="">November</option>
-                        <option value="">December</option>
+                        <option value="January">January</option>
+                        <option value="February">February</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="August">August</option>
+                        <option value="September">September</option>
+                        <option value="October">October</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
                     </select>
-                    <select class="form-option-year" name="" id="">
+                    <select class="form-option-year" name="year" id="">
                         <option value="">Year</option>
                         <script>
                             for (let j = 0; j<90; j++) {
-                                document.write("<option>"+(1920+j)+"<option>")
+                                document.write("<option value='"+j+"'"+">"+(1920+j)+"<option>")
                             }
                         </script>
                     </select>
