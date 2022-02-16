@@ -43,40 +43,40 @@
             <div class="right-body">
                 <h1>Create an account</h1>
                 <p class="form-heading">It's quick and easy.</p>
-                <form action="">
-                    <input class="signup-form-first-row" type="text" placeholder=" First name">
-                    <input class="signup-form-first-row" type="text" placeholder=" Surname">
-                    <input class="signup-form" type="text" placeholder=" Mobile number or email address">
-                    <input class="signup-form" type="text" placeholder=" New password">
+                <form action="" id="signup-form">
+                    <input name="fname" class="signup-form-first-row" type="text" placeholder=" First name">
+                    <input name="sname" class="signup-form-first-row" type="text" placeholder=" Surname">
+                    <input name="emailAddress" class="signup-form" type="text" placeholder=" Mobile number or email address">
+                    <input name="password" class="signup-form" type="text" placeholder=" New password">
                     <p class="form-label">Birthday</p>
-                    <select class="form-option-day" name="" id="">
+                    <select class="form-option-day" name="day" id="">
                         <option value="">Day</option>
                         <script>
                             for (let i = 1; i < 32; i++) {
-                                document.write("<option>"+i+"</option>")
+                                document.write("<option value='"+i+"'"+'>'+i+"</option>")
                             }
                         </script>
                     </select>
-                    <select class="form-option-month" name="" id="">
+                    <select class="form-option-month" name="month" id="">
                         <option value="">Month</option>
-                        <option value="">January</option>
-                        <option value="">February</option>
-                        <option value="">March</option>
-                        <option value="">April</option>
-                        <option value="">May</option>
-                        <option value="">June</option>
-                        <option value="">July</option>
-                        <option value="">August</option>
-                        <option value="">September</option>
-                        <option value="">October</option>
-                        <option value="">November</option>
-                        <option value="">December</option>
+                        <option value="January">January</option>
+                        <option value="February">February</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="August">August</option>
+                        <option value="September">September</option>
+                        <option value="October">October</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
                     </select>
-                    <select class="form-option-year" name="" id="">
+                    <select class="form-option-year" name="year" id="">
                         <option value="">Year</option>
                         <script>
                             for (let j = 0; j<90; j++) {
-                                document.write("<option>"+(1920+j)+"<option>")
+                                document.write("<option value='"+j+"'"+">"+(1920+j)+"<option>")
                             }
                         </script>
                     </select>
@@ -98,5 +98,8 @@
         </div>
 
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
